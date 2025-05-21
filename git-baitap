@@ -1,0 +1,9 @@
+echo "Xin chào DevOps" > hello.txt
+git add hello.txt
+git commit -m "Commit 1: Thêm dòng đầu tiên"
+
+echo "Tôi đang học Git" >> hello.txt
+git commit -am "Commit 2: Thêm dòng thứ hai"
+
+echo "Cảm ơn ChatGPT" >> hello.txt
+git commit -am "Commit 3: Thêm dòng thứ ba"
